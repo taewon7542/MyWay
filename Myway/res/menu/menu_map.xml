@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lg.sw26a2.myway.MainActivity" >
+
+
+    <item android:id="@+id/itemSave" 
+        android:title="확인"
+         android:enabled="true" 
+         android:visible="true"
+         
+         android:showAsAction="always"></item>
+    
+</menu>

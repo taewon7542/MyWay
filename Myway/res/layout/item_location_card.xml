@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:elevation="4dp" >
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:background="#FFF"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="10dp" >
+        
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/itemtvName"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="집"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        
+             <TextView
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="삭제" 
+        android:textSize="12sp"
+        android:textColor="#666"/>
+        
+        
+        
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/itemtvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서울시 강남구 강남대로 396"
+            android:textColor="#666" />
+
+        <TextView
+            android:id="@+id/itemtvTakingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1층 내려가는 시간 : 40분"
+            android:textColor="#666" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

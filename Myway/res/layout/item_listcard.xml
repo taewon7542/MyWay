@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:elevation="4dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:background="#FFF"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/itemtvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="소개팅"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/itemtvDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015/11/10 18:20"
+            android:textColor="#666" />
+
+        <TextView
+            android:id="@+id/itemtvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서울시 강남구 강남대로 396"
+            android:textColor="#666" />
+
+        <TextView
+            android:id="@+id/itemtvTakingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예상 소요시간 : 40분"
+            android:textColor="#666" />
+    </LinearLayout>
+
+</RelativeLayout>
